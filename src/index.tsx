@@ -276,6 +276,7 @@ function QRCodeCanvas(props: QRPropsCanvas) {
         onLoad={() => {
           update();
         }}
+        crossOrigin="anonymous"
         ref={_image}
       />
     );
